@@ -1,0 +1,26 @@
+.headerMain {
+    background-color:#333;
+    color: #fff;
+    .headerLogo {
+      padding: 15px 0;
+      color: #fff;
+      text-decoration: none;
+      
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .headerRight {
+      button {
+        svg {
+          fill: #fff;
+        }
+        &:not(:last-child) {
+          margin-right: 10px;
+        }
+      }
+    }
+    .menuBtn {
+      margin-right: 10px;
+     
+    }
+  }
